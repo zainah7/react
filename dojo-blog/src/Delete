@@ -1,0 +1,65 @@
+// import { Link } from "react-router-dom";
+// import { AiFillDelete } from "react-icons/ai";
+// import { useState } from "react";
+
+// const BlogList = ({ blogs }) => {
+//   const [blogList, setBlogList] = useState(blogs);
+
+//   const handleDelete = (id) => {
+//     const updatedBlogList = blogList.filter((blog) => blog.id !== id);
+//     setBlogList(updatedBlogList);
+//   };
+
+//   return (
+//     <div className="blog-list">
+//       {blogList.map((blog) => (
+//         <div className="blog-preview" key={blog.id}>
+//           <Link to={`/blogs/${blog.id}`}>
+//             <div className="Delete">
+//               <h2>{blog.title}</h2>
+//               <AiFillDelete className="icon" onClick={() => handleDelete(blog.id)} />
+//             </div>
+//             <p>Written by {blog.author}</p>
+//           </Link>
+//         </div>
+//       ))}
+//     </div>
+//   );
+// };
+
+// export default BlogList;
+
+// 2222
+// import { Link } from "react-router-dom";
+// import { AiFillDelete } from "react-icons/ai";
+// import { useState } from "react";
+
+// const BlogList = ({ blogs }) => {
+//   const [blogList, setBlogList] = useState(blogs);
+
+//   const handleDelete = (id) => {
+//     const updatedBlogList = blogList.filter((blog) => blog.id !== id);
+//     setBlogList(updatedBlogList);
+//   };
+
+//   return (
+//     <div className="blog-list">
+//       {blogList.map((blog) => (
+//         <div className="blog-preview" key={blog.id}>
+//           <Link to={`/blogs/${blog.id}`}>
+//             <div className="Delete">
+//               <h2>{blog.title}</h2>
+//               <AiFillDelete
+//                 className="icon"
+//                 onClick={() => handleDelete(blog.id)}
+//               />
+//             </div>
+//             <p>Written by {blog.author}</p>
+//           </Link>
+//         </div>
+//       ))}
+//     </div>
+//   );
+// };
+
+// export default BlogList;
